@@ -10,7 +10,7 @@ certificate to the client, acting as a "man in the middle".
 docker run \
   -p 3128:3128 \
   bmedora/squid:0.1.0 \
-  /apps/squid/sbin/squid -NsY -f.conf.intercept
+  /apps/squid/sbin/squid:0.1.0 -NsY -f.conf.intercept
 ```
 
 ### test with curl (no verify)
